@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+<body>
+    <div class="header header-vacancy">
+        <div class="container">
+            <nav class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <button class="menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="menu__wrapper menu__wrapper-page">
+                    <ul class="menu__list menu__list--left">
+                        <li class="menu__list-mobile">
+                            <img src="images/logo.png" alt="logo" class="menu__logo__img">
+                        </li>
+                        <li class="menu__list-mobile-close">
+                            <button class="mobile-close">
+                                <img src="images/close.svg" alt="close" class="close__img">
+                            </button>
+                        </li>
+                        <li class="menu__list-item menu__list-item-mobile">
+                            <a href="index.html" class="menu__list-link">О компании</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="vacancy.html" class="menu__list-link">Вакансии</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="application.html" class="menu__list-link">Процесс подачи заявок</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="contacts.html" class="menu__list-link">Контакты</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="news.html" class="menu__list-link">Блог и новости</a>
+                        </li>
+                    </ul>
+                    <ul class="menu__list menu__list--right">
+                        <li class="menu__list-item">
+                            <a href="enter.html" class="menu__list-link">Вход</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                <img src="images/russia.svg" alt="language-logo" class="menu__link-language">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main">
+        <section class="contacts">
+            <div class="container">
+                <div class="vacancy__subheader">
+                    <a href="index.html" class="subheader">Главная</a>
+                    <img src="images/vector-black.png" alt="right" class="sub__sign">
+                    <a href="#" class="subheader">Контакты</a>
+                </div>
+                <h3 class="contacts-title">Контакты</h3>
+            </div>
+        </section>
+        <section class="contacts__main" style="background-image: url(images/contacts-pic.png);background-repeat: no-repeat;background-size: cover;">
+            <div class="container">
+                <div class="contacts__main-form">
+                    <div class="contacts-form">
+                        <form target="_self">
+                            <h2 class="form__title">Свяжитесь с нами</h2>
+                            <p class="form__text" >Оставьте свои данные и мы пришлём подробный ответ на почту</p>
+                            <div class="mb-3">
+                                <input type="text" class="contacts-form__item" id="formGroupExampleInput" placeholder="ФИО" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="contacts-form__item" id="formGroupExampleInput2" placeholder="Эл. почта" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="contacts-form__item" id="formGroupExampleInput" placeholder="Телефон" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="contacts-form__item" id="formGroupExampleInput2" placeholder="Тема" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="contacts-form__item contacts-form__item-comment" id="formGroupExampleInput2" placeholder="Комментарии" required>
+                            </div>
+                            <button type="submit" class="form__btn">Отправить</button>
+                        </form>
+                        <div class="checkbox__block">
+                            <input type="checkbox" id="scales" class="checkbox__btn" name="scales"checked />
+                            <label for="scales" class="checkbox__text">Даю согласие на обработку данных</label>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts__location">
+                <h2 class="contacts__location-title">Наши контакты</h2>
+                <div class="contacts__location-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.263326130452!2d69.27657607608586!3d41.2596021039117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae6005c5142bf3%3A0xe04bf246835d2d7f!2sTashkent%20International%20Airport!5e0!3m2!1sen!2s!4v1720113236586!5m2!1sen!2s" class="contacts__map" width="100%" height="665" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contacts__cards">
+                    <div class="contacts__cards-list">
+                        <img src="images/contacts-location.png" alt="location" class="contacts__cards-img contacts__cards-location">
+                        <div class="contacts__cards-item">
+                            <p class="contacts__cards-title">Адрес</p>
+                            <p class="contacts__cards-text">
+                                г. Ташкент Сергелийский район, улица Кумарык,13
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contacts__cards-list">
+                        <img src="images/contacts-email.png" alt="email" class="contacts__cards-img">
+                        <div class="contacts__cards-item">
+                            <p class="contacts__cards-title">Электронная почта</p>
+                            <p class="contacts__cards-text">info@uzairports.com</p>
+                            <p class="contacts__cards-text">hr@uzairports.com</p>
+                        </div>
+                    </div>
+                    <div class="contacts__cards-list">
+                        <img src="images/contacts-tel.png" alt="tel" class="contacts__cards-img" >
+                        <div class="contacts__cards-item">
+                            <p class="contacts__cards-title">Телефон</p>
+                            <p class="contacts__cards-text">
+                                +(998)55 501 45 55 <br> +(998)55 501 45 55
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+        </section>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <nav class="footer__inner">
+                <a href="index.html" class="footer__logo">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <div class="footer__menu">
+                    <div class="footer__menu-center">
+                        <ul class="footer__menu-list footer__menu-list--left">
+                            <li class="footer__menu-item">
+                                <a href="index.html" class="footer__menu-link">О компании</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="vacancy.html" class="footer__menu-link">Вакансии</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="application.html" class="footer__menu-link">Процесс подачи заявки</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="contacts.html" class="footer__menu-link">Контакты</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">Медиа</a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <ul class="footer__menu-list">
+                        <p class="footer__menu-item">Мы в соцсетях</p>
+                        <li class="footer__menu-item footer__menu-item-app">
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/instagram.svg" alt="instagram-logo" class="footer__item-img">
+                            </a>
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/whatsapp.svg" alt="whatsapp-logo" class="footer__item-img">
+                            </a>
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/telegram.svg" alt="telegram-logo" class="footer__item-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>

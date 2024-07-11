@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/enter.css">
+</head>
+<body>
+    <div class="header header-vacancy">
+        <div class="container">
+            <nav class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <button class="menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="menu__wrapper menu__wrapper-page">
+                    <ul class="menu__list menu__list--left">
+                        <li class="menu__list-mobile">
+                            <img src="images/logo.png" alt="logo" class="menu__logo__img">
+                        </li>
+                        <li class="menu__list-mobile-close">
+                            <button class="mobile-close">
+                                <img src="images/close.svg" alt="close" class="close__img">
+                            </button>
+                        </li>
+                        <li class="menu__list-item menu__list-item-mobile">
+                            <a href="index.html" class="menu__list-link">О компании</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="vacancy.html" class="menu__list-link">Вакансии</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="application.html" class="menu__list-link">Процесс подачи заявок</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="contacts.html" class="menu__list-link">Контакты</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="news.html" class="menu__list-link">Блог и новости</a>
+                        </li>
+                    </ul>
+                    <ul class="menu__list menu__list--right">
+                        <li class="menu__list-item">
+                            <a href="enter.html" class="menu__list-link">Вход</a>
+                        </li>
+                        <li class="menu__list-item">
+                            <a href="#" class="menu__list-link">
+                                <img src="images/russia.svg" alt="language-logo" class="menu__link-language">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="main">
+        <section class="enter">
+            <div class="container">
+                <h2 class="enter__title">Вход в систему</h2>
+                <div class="enter__form">
+                    <form target="_self" class="enter__form-mobile">
+                        <div class="enter__mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email</label>
+                            <input type="text" class="enter-form__item" id="formGroupExampleInput" placeholder="Email" required>
+                        </div>
+                        <div class="enter__mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Пароль</label>
+                            <input class="enter-form__item" id="formGroupExampleInput2" placeholder="Пароль" type="password" required>
+                        </div>
+                        <div class="enter__remember">
+                            <label for="" class="enter__remember-text">
+                                <input type="checkbox" class="enter__checkbox"> 
+                                Запомнить меня 
+                            </label>
+                            <a href="#" class="enter__remember-password">Забыли пароль?</a>
+                        </div>
+                        <button type="submit" class="enter__btn">Войти</button>
+                        <div class="enter__registr">
+                            <p class="registr__text">У вас нет аккаунта? <a href="registr.html" class="register__link"> Пройдите регистрацию</a>
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <nav class="footer__inner">
+                <a href="index.html" class="footer__logo">
+                    <img src="images/logo.png" alt="logo" class="logo__img">
+                </a>
+                <div class="footer__menu">
+                    <div class="footer__menu-center">
+                        <ul class="footer__menu-list footer__menu-list--left">
+                            <li class="footer__menu-item">
+                                <a href="index.html" class="footer__menu-link">О компании</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="vacancy.html" class="footer__menu-link">Вакансии</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="application.html" class="footer__menu-link">Процесс подачи заявки</a>
+                            </li>
+                        </ul>
+                        <ul class="footer__menu-list">
+                            <li class="footer__menu-item">
+                                <a href="contacts.html" class="footer__menu-link">Контакты</a>
+                            </li>
+                            <li class="footer__menu-item">
+                                <a href="#" class="footer__menu-link">Медиа</a>
+                            </li>
+                        </ul>
+                    </div>
+                   
+                    <ul class="footer__menu-list">
+                        <p class="footer__menu-item">Мы в соцсетях</p>
+                        <li class="footer__menu-item footer__menu-item-app">
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/instagram.svg" alt="instagram-logo" class="footer__item-img">
+                            </a>
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/whatsapp.svg" alt="whatsapp-logo" class="footer__item-img">
+                            </a>
+                            <a href="#" class="footer__menu-app">
+                                <img src="images/telegram.svg" alt="telegram-logo" class="footer__item-img">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
